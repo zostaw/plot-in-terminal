@@ -1,8 +1,8 @@
 # Visualize stuff in terminal
 
 This repo contains example snippets of visualization in the terminal.  
-It's for my forgetting mind, so some of the examples contain unnecessary stuff just so I can use them without thinking in my processes :)  
-It requires Kitty terminal as well as rsvg-convert.  
+It's for my forgetting mind, so some of the examples contain unnecessary stuff just so I can use them in my processes without thinking.  
+It requires Kitty terminal as well as *rsvg-convert* (sometimes).  
 
 ## Handy aliases
 
@@ -35,7 +35,7 @@ Result:
 **plot_svg**
 
 Simple snippet with matplotlib, saving into svg format.  The plot is generated without axis, if you want details on how to handle axis, labels and stuff see **plot_png** - the same parameters apply to svg (I didn't check though).  
->> this svg file is actually converted to png by *rsvg-convert* below, this example is just to illustrate how to export to svg.  
+> This svg file is actually converted to png for kitty by *rsvg-convert* command below. Generating it in svg in the first place is not necessary. The example is for me just to illustrate how to export to svg, lol.  
 
 ```
 # generate svg
@@ -60,3 +60,4 @@ kitty icat --align=left plot_animation.gif
 
 Result:  
 <img src='./screenshots/plot_animation.gif' width='600' height='450'></img>
+> This is gif of gif, lol, I made it in few takes, because I don't know how to take screenshots, so you can see browser on one of the pictures.
